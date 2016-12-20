@@ -1,152 +1,128 @@
-<DOCTYPE! html>
+<!doctype html>
+<html>
 <head>
-	<title>Javascript</title>
-	<link rel="stylesheet" type="text/css" href="cssLapse.css">
+<meta charset="UTF-8">
+	<meta name="description" content="Web Development Don Right" />
+	<meta name="keywords" content="Websites, Business, HTML, Don Lab, Web Development, Awesome, Responsive" />
+	<meta name="author" content="Don Lab" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="donLab.css">
+    <link rel="shortcut icon" href="Images/donLabIcon.png">
+    <link rel="mask-icon" href="Images/donLabIcon.png" color="green">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="/google_analytics_auto.js"></script>
+
+<title>Don Lab Home</title>
 </head>
+
 <body>
+<!--Navbar-->
+<nav>
+	<div id="nav">
+		<ul>
+        	<li class="brand"><a href="index.html">Don Lab</a></li>
+            <li><a class="active" href="index.html">Home  <span class="glyphicon glyphicon-home"></span></a></li>
+            <li><a href="portfolio.html">Portfolio  <span class="glyphicon glyphicon-folder-open"></span></a></li>
+            <li><a href="services.html">Services <span class="glyphicon glyphicon-list-alt"></span></a></li>
+            <li><a href="contact.html">Contact  <span class="glyphicon glyphicon-envelope"></span></a></li>
+        </ul>
+	</div>
+</nav>
 
-	<div class="row">
-		<div class="full">
-			<div id="nav">
-				<ul>
-					<li><a class="active" href="#">Home</a></li>
-					<li><a href="#">Stories</a></li>
-					<li><a href="#">Video</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</div>
+<center><h1 id="slogan"><em>Web Development <u>Don</u> Right</em></h1></center>
+
+<header>
+<div class="row">
+<div class="col-sm-12">
+<div id="header">
+<!--Carousel-->
+ <div id="Carousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#Carousel" data-slide-to="1"></li>
+    <li data-target="#Carousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <center><img src="Images\donLab3.jpg" class="img-responsive" width="1200px" height="480px" alt="logo"></center>
+    </div>
+
+    <div class="item">
+      <center><img src="Images\platform.jpg" class="img-responsive" width="1200px" height="480px" alt="Websites for all platform"></center>
+    </div>
+  
+    <div class="item">
+      <center><a href="services.html"><img src="Images\moreServ.jpg" class="img-responsive" width="1200px" height="480px" alt="More skills are coming"></a></center>
+    </div>
+   </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<!--Important Statment-->
+<center><h1>Stop using restrictive website templates, stand out!</h1></center>
+<br />
+
+<!--Panels-->
+<div class="row">
+
+	<div id="pBack1" class="col-sm-4">
+		<center><a href="portfolio.html"><img src="Images/workPanel.jpg" width="250px" height="250px" class="img-responsive" id="panel1" alt="Websites I have made"></a></center>
+	</div>
+
+	<div id="pBack2" class="col-sm-4">
+		<center><a href="services.html"><img src="Images/services.jpg" width="250px" height="250px" class="img-responsive" id="panel2" alt="See my Services"></a></center>
+	</div>
+
+	<div id="pBack3" class="col-sm-4">
+		<center><a href="contact.html"><img src="Images/quote.jpg" width="250px" height="250px" class="img-responsive" id="panel3" alt="Click to get a free quote!"></a></center>
+	</div>
+
+</div>
+
+<hr width="85%" />
+
+<div class="row">
+
+<div class="col-sm-12">
+	<div id="who">
+		<center><h1>Who am I?</h1></center>
+		<center><h4>I am a freelance web developer who has experience in <em>HTML5, CSS3, Javascript, and Jquery.</em></h4></center>
+	</div>
+</div>
+
+</div>
+
+<hr width="85%" />
+
+<!--Footer-->
+<div class="row">
+
+	<div class="col-sm-12">
+		<div id="footer">
+			<!--Javascript-->
 		</div>
 	</div>
 
-	<div class="row">
-		<div class="full">
-			<div id="header">
-				<!--Javascript-->
-			</div>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="quart">
-			<div id="panel">
-				<center><h3>This Page's Overview</h3></center>
-				<p>The Javascript I wrote to make this page dynamic allows for the heading to change the day it diplays, to validate the form input so that all inputs have a value before the user submits, and for the footer to change the year. I also created a responsive grid with CSS so this website can be viewed on all platforms.</p>
-			</div>
-		</div>
-
-		<div class="quart">
-			<div id="panel">
-				<center><h3>Lorum Ipsum</h3></center>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed feugiat tellus, quis tincidunt sem. Aliquam in ex erat. Donec est libero, euismod vel orci vitae, tincidunt auctor orci. Morbi consectetur odio blandit, consequat magna quis, ornare arcu. Morbi dolor orci, laoreet sed mollis id, venenatis in lectus. </p>
-			</div>
-		</div>
-
-		<div class="quart">
-			<div id="panel">
-				<center><h3>Lorum Ipsum</h3></center>
-				<p>Nulla non volutpat sem, sit amet placerat felis. Quisque at eros ullamcorper, laoreet urna vitae, scelerisque massa. Nullam cursus, neque in porttitor porta, sem libero lacinia massa, non hendrerit metus sem id mi. In velit odio, posuere ut leo non, lobortis rutrum urna. Integer hendrerit venenatis tempus. Cras id velit leo. </p>
-			</div>
-		</div>
-
-		<div class="quart">
-			<div id="panel">
-				<center><h3>Lorum Ipsum</h3></center>
-				<p>Sed quis velit ac orci fermentum sagittis sed quis risus. In facilisis purus porta scelerisque gravida.</p>
-			</div>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="half">
-			<center><h3>Lorum</h3></center>
-			<hr width="80%">
-			<br />
-			<center><p>Nulla non volutpat sem, sit amet placerat felis.</p></center>
-		</div>
-
-		<div class="half">
-			<center><h3>Ipsum</h3></center>
-			<hr width="80%">
-			<br />
-			<center><p>Curabitur lobortis libero mi, ut pellentesque erat convallis id.</p></center>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="half">
-			<div id="panel">
-				<center><h3>Lorum Ipsum</h3></center>
-				<center><p> Cras sed erat mattis, vehicula lorem in, dignissim dolor. Ut tortor urna, sodales in aliquet at, imperdiet quis urna. Cras ultricies, enim non faucibus tincidunt, augue justo fringilla risus, eget sollicitudin turpis turpis eget ligula.</p></center>
-			</div>
-		</div>
-
-		<div class="half">
-			<div id="panel">
-				<center><h3>Lorum Ipsum</h3></center>
-				<center><p>Curabitur euismod volutpat consectetur. Fusce pretium arcu tellus, nec imperdiet velit scelerisque eget. Ut congue varius nisl sed porttitor.</p></center>
-			</div>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="quart">
-			<div id="panel">
-				<center><p>Nulla vitae enim aliquam arcu eleifend porta. Suspendisse id tristique nulla, non iaculis est.</p></center>
-			</div>
-		</div>
-
-		<div class="half">
-			<div id="panel">
-				<center><h3>Lorum Ipsum</h3></center>
-			</div>
-		</div>
-
-		<div class="quart">
-			<div id="panel">
-				<center><p>Nulla vitae enim aliquam arcu eleifend porta. Suspendisse id tristique nulla, non iaculis est.</p></center>
-			</div>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class='quart'>
-			&nbsp;
-		</div>
-
-	 	<div class="half">
-	 		<div id="panel">
-	 			<center><h3>Email Mr. Ipsum!<h3></center>
-	 			<hr width="80%">
-	 			<center>
-	 			<form name="emailForm" action="MAILTO: " method="post" onsubmit="return validForm()">
-	 				<div id="input">
-	 					Name: <input name="user" type="text">
-	 					<br />
-	 					<br />
-	 					Email: <input name="email" type="text">
-	 				</div>
-	 					<br />
-	 					<br />
-	 					<input name="name" type="submit" class="submit">
-	 			</form>
-	 		</center>
-	 		</div>
-	 	</div>
-
-	 	<div class="quart">
-	 		&nbsp;
-	 	</div>
-	</div>
-
-	<div class="row">
-		<div class="full">
-			<div id="footer">
-				<!--Javascript-->
-			</div>
-		</div>
-	</div>
-
-	<script src="jsLapse.js"></script>
-
+</div>
+<script src="donLab.js"></script>
 </body>
 </html>
